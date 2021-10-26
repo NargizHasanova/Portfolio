@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import serv from './img/serv.png'
 import atu from './img/atu.png'
 import figma from './img/figmaland.png'
@@ -29,6 +29,22 @@ export default function Portfolio() {
                         <div className="project-item">
                             <div className="project-info">
                                 <h1>Project 1</h1>
+                                <h2>PizzaLand</h2>
+                                <h3 className="github">
+                                    <ExternalLink href="https://pizzaland-project.surge.sh/">-- github link --
+                                    </ExternalLink>
+                                </h3>
+                                <p>This is pizza project written on React</p>
+                            </div>
+                            <div className="project-img">
+                                <ExternalLink href="https://react-pizza-project.surge.sh/">
+                                    <img src={menu} alt="#" />
+                                </ExternalLink>
+                            </div>
+                        </div>
+                        <div className="project-item">
+                            <div className="project-info">
+                                <h1>Project 2</h1>
                                 <h2>İstirahət mərkəzləri</h2>
                                 <h3 className="github">
                                     <ExternalLink href="https://github.com/NargizHasanova/React_project-istirahet_merkezleri-">-- github link --
@@ -44,7 +60,7 @@ export default function Portfolio() {
                         </div>
                         <div className="project-item">
                             <div className="project-info">
-                                <h1>Project 2</h1>
+                                <h1>Project 3</h1>
                                 <h2>Azerbaijan Medical University</h2>
                                 <h3 className="github">
                                     <ExternalLink href="https://github.com/NargizHasanova/ATUproject">-- github link --
@@ -60,7 +76,7 @@ export default function Portfolio() {
                         </div>
                         <div className="project-item">
                             <div className="project-info">
-                                <h1>Project 3</h1>
+                                <h1>Project 4</h1>
                                 <h2>FigmaLand</h2>
                                 <h3 className="github">
                                     <ExternalLink href="https://github.com/NargizHasanova/FigmaProject">-- github link --
@@ -75,22 +91,6 @@ export default function Portfolio() {
                             </div>
                         </div>
 
-                        <div className="project-item">
-                            <div className="project-info">
-                                <h1>Project 4</h1>
-                                <h2>Menu</h2>
-                                <h3 className="github">
-                                    <ExternalLink href="https://github.com/NargizHasanova/ReactMenu">-- github link --
-                                    </ExternalLink>
-                                </h3>
-                                <p>This is small menu project written on React</p>
-                            </div>
-                            <div className="project-img">
-                                <ExternalLink href="https://menuaz.surge.sh/">
-                                    <img src={menu} alt="#" />
-                                </ExternalLink>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>

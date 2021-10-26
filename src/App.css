@@ -288,6 +288,7 @@ p {
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
+  width: 100%;
 }
 
 .project-item:nth-child(even) .project-img {
