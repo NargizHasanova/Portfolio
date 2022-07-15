@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
-import serv from './img/serv.png'
+import clero from './img/clero.png'
 import atu from './img/atu.png'
-import figma from './img/figmaland.png'
 import mantiya from './img/mantiya.jpg'
 import menu from './img/menu.png'
+import travel from './img/trav.png'
+import brandyol from './img/brand.png'
 import { ExternalLink } from 'react-external-link';
 
 export default function Portfolio() {
@@ -29,38 +30,54 @@ export default function Portfolio() {
                         <div className="project-item">
                             <div className="project-info">
                                 <h1>Project 1</h1>
-                                <h2>PizzaLand</h2>
+                                <h2>Brandyol</h2>
                                 <h3 className="github">
-                                    <ExternalLink href="https://pizzaland-project.surge.sh/">-- github link --
+                                    <ExternalLink href="https://github.com/NargizHasanova/BrandYol">-- github link --
                                     </ExternalLink>
                                 </h3>
-                                <p>This is pizza project written on React</p>
+                                <p>This is my one of my freelance e-commerce trendyol clone project.Used technologies: html,scss,react,redux toolkit</p>
                             </div>
                             <div className="project-img">
-                                <ExternalLink href="https://react-pizza-project.surge.sh/">
-                                    <img src={menu} alt="#" />
+                                <ExternalLink href="https://brandyol.surge.sh/">
+                                    <img src={brandyol} alt="#" />
                                 </ExternalLink>
                             </div>
                         </div>
                         <div className="project-item">
                             <div className="project-info">
                                 <h1>Project 2</h1>
-                                <h2>İstirahət mərkəzləri</h2>
+                                <h2>PizzaLand</h2>
                                 <h3 className="github">
-                                    <ExternalLink href="https://github.com/NargizHasanova/React_project-istirahet_merkezleri-">-- github link --
+                                    <ExternalLink href="https://github.com/NargizHasanova/react_pizza_project">-- github link --
                                     </ExternalLink>
                                 </h3>
-                                <p>This is simple responsive website template about recreation centers.Written on React</p>
+                                <p>This is pizza project written on React</p>
                             </div>
                             <div className="project-img">
-                                <ExternalLink href="http://istirahet-merkezleri.surge.sh/">
-                                    <img src={serv} alt="#" />
+                                <ExternalLink href="https://pizzaland-project.surge.sh/">
+                                    <img src={menu} alt="#" />
                                 </ExternalLink>
                             </div>
                         </div>
                         <div className="project-item">
                             <div className="project-info">
                                 <h1>Project 3</h1>
+                                <h2>Clerc</h2>
+                                <h3 className="github">
+                                    <ExternalLink href="https://github.com/NargizHasanova/Clerc_Soft_Project">-- github link --
+                                    </ExternalLink>
+                                </h3>
+                                <p>Online furniture store template. Used technologies: html,scss,js</p>
+                            </div>
+                            <div className="project-img">
+                                <ExternalLink href="https://clerc.surge.sh/">
+                                    <img src={clero} alt="#" />
+                                </ExternalLink>
+                            </div>
+                        </div>
+                        <div className="project-item">
+                            <div className="project-info">
+                                <h1>Project 4</h1>
                                 <h2>Azerbaijan Medical University</h2>
                                 <h3 className="github">
                                     <ExternalLink href="https://github.com/NargizHasanova/ATUproject">-- github link --
@@ -76,17 +93,17 @@ export default function Portfolio() {
                         </div>
                         <div className="project-item">
                             <div className="project-info">
-                                <h1>Project 4</h1>
-                                <h2>FigmaLand</h2>
+                                <h1>Project 5</h1>
+                                <h2>Travel Tours</h2>
                                 <h3 className="github">
-                                    <ExternalLink href="https://github.com/NargizHasanova/FigmaProject">-- github link --
+                                    <ExternalLink href="https://github.com/NargizHasanova/travel_page_js">-- github link --
                                     </ExternalLink>
                                 </h3>
-                                <p>This is template made by me.Figma,HTML,CSS used in here</p>
+                                <p>This is simple responsive website template.Used technologies: html,scss,js</p>
                             </div>
                             <div className="project-img">
-                                <ExternalLink href="http://figmaproject.surge.sh/">
-                                    <img src={figma} alt="#" />
+                                <ExternalLink href="https://trav.surge.sh/">
+                                    <img src={travel} alt="#" />
                                 </ExternalLink>
                             </div>
                         </div>
@@ -121,14 +138,14 @@ export default function Portfolio() {
                             <div className="icon"><img src="https://img.icons8.com/bubbles/50/000000/broken-phone.png" alt="#" /></div>
                             <div className="contact-info">
                                 <h1>Phone</h1>
-                                <h2><a href="tel:(+994)050-450-96-62">(050)450-96-62</a></h2>
+                                <h2><a href="tel:(+994)050-450-96-62">(+994) 050-450-96-62</a></h2>
                             </div>
                         </div>
                         <div className="contact-item">
                             <div className="icon"><img src="https://img.icons8.com/bubbles/50/000000/email.png" alt="#" /></div>
                             <div className="contact-info two">
                                 <h1>Email</h1>
-                                <h2 className="email"><a href="mailto:nargiz.18.10.1996@gmail.com">nargiz.gasanova.1996@mail.ru</a></h2>
+                                <h2 className="email"><a href="mailto:nargiz.frontdev3@gmail.com">nargiz.frontdev3@gmail.com</a></h2>
                             </div>
                         </div>
                         <div className="contact-item">
@@ -152,7 +169,7 @@ export default function Portfolio() {
                         <div className="social-item"><a href="/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="#" /></a></div>
                         <div className="social-item"><a href="/"><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png" alt="#" /></a></div>
                     </div>
-                    <p>Copyright © 2021 Nargiz.All rights reserved</p>
+                    <p>Copyright © 2022 Nargiz.All rights reserved</p>
                 </div>
             </section>
 
