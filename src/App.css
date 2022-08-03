@@ -41,7 +41,7 @@ p {
 
 /*Hero Section*/
 #hero {
-  background: url(./components/img/nara.jpg) no-repeat;
+  background: url(./img/nara.jpg) no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -137,7 +137,13 @@ p {
   color: #fff;
   background: crimson;
 }
-
+.resume-btn{
+  color: black !important;
+  cursor: pointer;
+}
+.resume-btn:hover {
+  background: crimson;
+}
 @keyframes text_reveal_box {
   50% {
     width: 100%;
@@ -214,7 +220,7 @@ p {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid gray;
-  background-image: url(./components/img/serv.png);
+  background-image: url(./img/serv.png);
   background-size: cover;
   margin: 10px 0;
   position: relative;

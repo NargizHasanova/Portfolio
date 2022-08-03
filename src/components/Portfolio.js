@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import clero from './img/clero.png'
-import atu from './img/atu.png'
-import mantiya from './img/mantiya.jpg'
-import menu from './img/menu.png'
-import travel from './img/trav.png'
-import brandyol from './img/brand.png'
+import clero from '../img/clero.png'
+import atu from '../img/atu.png'
+import mantiya from '../img/mantiya.jpg'
+import menu from '../img/menu.png'
+import travel from '../img/trav.png'
+import brandyol from '../img/brand.png'
 import { ExternalLink } from 'react-external-link';
 
 export default function Portfolio() {
@@ -123,7 +123,7 @@ export default function Portfolio() {
                         <h1 className="section-title">About <span>me</span></h1>
                         <h2>Front-End Web Developer</h2>
                         <p>Nice to meet you!My name is Nargiz. I'm junior frontend web developer from Azerbaijan with 1 year of experience in freelance.Early on in my life I realized I had a deep fascination with technology. As an introvert I tended to want to stay on the computer rather than socializing.I like to learn, build & explore.I'm quietly confident, naturally curious, and perpetually working on improving my skills.</p>
-                        <a href="/" className="cta">Download Resume</a>
+                        <a href="cv.pdf" download className="cta">Download Resume</a>
                     </div>
                 </div>
             </section>
